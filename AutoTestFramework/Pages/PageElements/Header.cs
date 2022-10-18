@@ -3,7 +3,7 @@ using SeleniumExtras.PageObjects;
 
 namespace AutoTestFramework.Pages.PageElements
 {
-    internal class Header
+    public class Header
     {
         public Header()
         {
