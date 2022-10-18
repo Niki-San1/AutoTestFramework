@@ -1,11 +1,11 @@
 ﻿using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 
-namespace AutoTestFramework.Pages
+namespace AutoTestFramework.Pages.TestScenariosPosts
 {
-    public class LoginPage
+    public class LoginFormPost
     {
-        public LoginPage()
+        public LoginFormPost()
         {
             PageFactory.InitElements(Driver.driver, this);
         }
