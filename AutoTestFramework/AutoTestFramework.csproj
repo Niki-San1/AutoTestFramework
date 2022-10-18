@@ -18,8 +18,4 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="105.0.5195.1900" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\TestCasesPosts\" />
-  </ItemGroup>
-
 </Project>
