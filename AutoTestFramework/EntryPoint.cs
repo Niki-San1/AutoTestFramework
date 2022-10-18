@@ -1,4 +1,6 @@
-﻿namespace AutoTestFramework
+﻿using AutoTestFramework.Pages.PageElements;
+
+namespace AutoTestFramework
 {
     public class EntryPoint
     {
