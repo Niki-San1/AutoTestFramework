@@ -1,4 +1,4 @@
-﻿namespace AutoTestFramework.Pages
+﻿namespace AutoTestFramework.Pages.TestCasesPosts
 {
     public class UsernameFieldPost
     {
