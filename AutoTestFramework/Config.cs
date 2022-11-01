@@ -14,7 +14,7 @@
                 public static string PasswordRegister = "1234567";  //not empty && 7~12
                 public static string Name = "Aaa";                  //alphabet only
                 public static string Address = "Aaa2";              //alphanumerical only
-                public static string Country = "2";                 //
+                public static int Country = 2;                      //
                 public static string ZIPCode = "12345";             //numeric only
                 public static string Email = "e@mail.com";          //
             }
@@ -67,7 +67,7 @@
 
                 public static class Country
                 {
-
+                    public static int Empty = 1;
                 }
 
                 public static class ZIPCode                         //numeric only
