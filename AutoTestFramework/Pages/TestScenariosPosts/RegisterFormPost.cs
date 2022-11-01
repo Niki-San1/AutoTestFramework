@@ -19,6 +19,9 @@ namespace AutoTestFramework.Pages.TestScenariosPosts
         [FindsBy(How = How.Name, Using = "username")]
         public IWebElement NameField { get; set; }
 
+        [FindsBy(How = How.Name, Using = "address")]
+        public IWebElement AddressField { get; set; }
+
         [FindsBy(How = How.Name, Using = "country")]
         public IWebElement CountryDropDownMenu { get; set; }
 
