@@ -86,21 +86,22 @@
                     public static string WrongDomain = "a@mail.2";
                 }
             }
-            public static class AlertBoxMessages
-            {
-                public static string LoginSuccessful = "Succesful login!";
-                public static string LoginErrorUserID = "User Id should not be empty / length be between 5 to 12";
-                public static string LoginErrorPassword = "Password should not be empty / length be between 5 to 12";
-                public static string LoginErrorRepeatPassword = "Passwords do not match!";
+        }
 
-                public static string RegisterErrorUserID = "User Id should not be empty / length be between 5 to 12";
-                public static string RegisterErrorPassword = "Password should not be empty / length be between 7 to 12";
-                public static string RegisterErrorName = "Username must have alphabet characters only";
-                public static string RegisterErrorAddress = "User address must have alphanumeric characters only";
-                public static string RegisterErrorCountry = "Select your country from the list";
-                public static string RegisterErrorZIPCode = "ZIP code must have numeric characters only";
-                public static string RegisterErrorEmail = "You have entered an invalid email address!";
-            }
+        public static class AlertBoxMessages
+        {
+            public static string LoginSuccessful = "Succesful login!";
+            public static string LoginErrorUserID = "User Id should not be empty / length be between 5 to 12";
+            public static string LoginErrorPassword = "Password should not be empty / length be between 5 to 12";
+            public static string LoginErrorRepeatPassword = "Passwords do not match!";
+
+            public static string RegisterErrorUserID = "User Id should not be empty / length be between 5 to 12";
+            public static string RegisterErrorPassword = "Password should not be empty / length be between 7 to 12";
+            public static string RegisterErrorName = "Username must have alphabet characters only";
+            public static string RegisterErrorAddress = "User address must have alphanumeric characters only";
+            public static string RegisterErrorCountry = "Select your country from the list";
+            public static string RegisterErrorZIPCode = "ZIP code must have numeric characters only";
+            public static string RegisterErrorEmail = "You have entered an invalid email address!";
         }
     }
 }
