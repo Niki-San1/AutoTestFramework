@@ -4,9 +4,9 @@ namespace AutoTestFramework
 {
     public class EntryPoint
     {
-        public static void Main()
-        {
+        //public static void Main()
+        //{
 
-        }
+        //}
     }
 }
