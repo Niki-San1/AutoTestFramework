@@ -26,22 +26,22 @@ namespace AutoTestFramework.Pages.TestScenariosPosts
         public IWebElement CountryDropDownMenu { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(1)")]
-        public IWebElement DropDownOptionDefault { get; set; }
+        public IWebElement DropDownOption1 { get; set; } //Default
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(2)")]
-        public IWebElement DropDownOptionAustralia { get; set; }
+        public IWebElement DropDownOption2 { get; set; } //Australia
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(3)")]
-        public IWebElement DropDownOptionCanada { get; set; }
+        public IWebElement DropDownOption3 { get; set; } //Canada
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(4)")]
-        public IWebElement DropDownOptionIndia { get; set; }
+        public IWebElement DropDownOption4 { get; set; } //India
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(5)")]
-        public IWebElement DropDownOptionRussia { get; set; }
+        public IWebElement DropDownOption5 { get; set; } //Russia
 
         [FindsBy(How = How.CssSelector, Using = "#post-70 > div > form > ul > li:nth-child(10) > select > option:nth-child(6)")]
-        public IWebElement DropDownOptionUsa { get; set; }
+        public IWebElement DropDownOption6 { get; set; } //Usa
 
         [FindsBy(How = How.Name, Using = "zip")]
         public IWebElement ZIPCodeField { get; set; }
